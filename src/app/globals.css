@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+  display: none;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+.background{
+  background-image: url('./components/images/banner-img.jpg');
+  
+}
+ .bg-about{
+  background-image: url('./components/images/banner-img.jpg');
+  
+ }
